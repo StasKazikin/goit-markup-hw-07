@@ -48,13 +48,13 @@
 }
 
 .logo-web {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .site-nav .link,
 .address-nav .link {
   display: block;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
@@ -67,11 +67,11 @@
 .site-nav .link:focus,
 .address-nav .link:hover,
 .address-nav .link:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .site-nav .link.current {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .site-nav .item {
@@ -83,7 +83,7 @@
   display: block;
   position: absolute;
   bottom: -40px;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   width: 100%;
   height: 4px;
   border-radius: 2px;
@@ -92,7 +92,7 @@
 .address-nav .link {
   display: flex;
   align-items: center;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
   font-style: normal;
 }
 

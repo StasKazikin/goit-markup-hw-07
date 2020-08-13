@@ -27,16 +27,16 @@
   align-items: center;
   width: 100%;
   height: 90px;
-  border: 1px solid var(--primary-social-links-color);
+  border: 1px solid $primary-social-links-color;
   border-radius: 4px;
 
-  fill: var(--primary-social-links-color);
+  fill: $primary-social-links-color;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients .link:hover,
 .clients .link:focus {
-  border-color: var(--accent-color);
-  fill: var(--accent-color);
+  border-color: $accent-color;
+  fill: $accent-color;
 }

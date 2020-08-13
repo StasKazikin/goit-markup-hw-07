@@ -24,7 +24,7 @@
 
 .hero-title {
   width: 696px;
-  color: var(--white-color);
+  color: $white-color;
 
   font-weight: 900;
   font-size: 44px;
@@ -38,8 +38,8 @@
 
 .button {
   width: 200px;
-  color: var(--white-color);
-  background-color: var(--accent-color);
+  color: $white-color;
+  background-color: $accent-color;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -56,5 +56,5 @@
 }
 
 .button:hover {
-  background-color: var(--hover-button-color);
+  background-color: $hover-button-color;
 }

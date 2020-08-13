@@ -1,7 +1,7 @@
 /* Our team section */
 
 .team {
-  background-color: var(--secondary-bg-color);
+  background-color: $secondary-bg-color;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -15,7 +15,7 @@
 }
 
 .team-list > .item {
-  background-color: var(--white-color);
+  background-color: $white-color;
   width: calc((100% - 3 * 30px) / 4);
   padding-bottom: 24px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -46,7 +46,7 @@
 }
 
 .team .description {
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
   font-weight: 400;
   margin-bottom: 16px;
 }
@@ -67,10 +67,10 @@
   align-items: center;
   width: 44px;
   height: 44px;
-  background-color: var(--primary-bg-color);
+  background-color: $primary-bg-color;
   border-radius: 50%;
 
-  fill: var(--primary-social-links-color);
+  fill: $primary-social-links-color;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -78,8 +78,8 @@
 
 .social-links-link:hover,
 .social-links-link:focus {
-  background-color: var(--accent-color);
-  fill: var(--white-color);
+  background-color: $accent-color;
+  fill: $white-color;
 }
 
 .social-links-icon {

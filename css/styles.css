@@ -19,8 +19,8 @@
 }
 
 body {
-  background-color: var(--primary-bg-color);
-  color: var(--primary-text-color);
+  background-color: $primary-bg-color;
+  color: $primary-text-color;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
 }
@@ -113,13 +113,13 @@ img {
 }
 
 .logo-web {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .site-nav .link,
 .address-nav .link {
   display: block;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
@@ -132,11 +132,11 @@ img {
 .site-nav .link:focus,
 .address-nav .link:hover,
 .address-nav .link:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .site-nav .link.current {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .site-nav .item {
@@ -148,7 +148,7 @@ img {
   display: block;
   position: absolute;
   bottom: -40px;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   width: 100%;
   height: 4px;
   border-radius: 2px;
@@ -157,7 +157,7 @@ img {
 .address-nav .link {
   display: flex;
   align-items: center;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
   font-style: normal;
 }
 
@@ -192,7 +192,7 @@ img {
 
 .hero-title {
   width: 696px;
-  color: var(--white-color);
+  color: $white-color;
 
   font-weight: 900;
   font-size: 44px;
@@ -206,8 +206,8 @@ img {
 
 .button {
   width: 200px;
-  color: var(--white-color);
-  background-color: var(--accent-color);
+  color: $white-color;
+  background-color: $accent-color;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -224,7 +224,7 @@ img {
 }
 
 .button:hover {
-  background-color: var(--hover-button-color);
+  background-color: $hover-button-color;
 }
 
 /* About us section */
@@ -254,7 +254,7 @@ img {
   width: 270px;
   height: 120px;
 
-  background-color: var(--button-bg-color);
+  background-color: $button-bg-color;
   border-radius: 4px;
 
   margin-bottom: 30px;
@@ -266,7 +266,7 @@ img {
 }
 
 .about-us .subtitle {
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -276,7 +276,7 @@ img {
 }
 
 .about-us .description {
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
   font-size: 14px;
   line-height: 1.71;
   margin: 0;
@@ -319,7 +319,7 @@ img {
   width: 100%;
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
-  color: var(--white-color);
+  color: $white-color;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -333,7 +333,7 @@ img {
 /* Our team section */
 
 .team {
-  background-color: var(--secondary-bg-color);
+  background-color: $secondary-bg-color;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -347,7 +347,7 @@ img {
 }
 
 .team-list > .item {
-  background-color: var(--white-color);
+  background-color: $white-color;
   width: calc((100% - 3 * 30px) / 4);
   padding-bottom: 24px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -378,7 +378,7 @@ img {
 }
 
 .team .description {
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
   font-weight: 400;
   margin-bottom: 16px;
 }
@@ -399,10 +399,10 @@ img {
   align-items: center;
   width: 44px;
   height: 44px;
-  background-color: var(--primary-bg-color);
+  background-color: $primary-bg-color;
   border-radius: 50%;
 
-  fill: var(--primary-social-links-color);
+  fill: $primary-social-links-color;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -410,8 +410,8 @@ img {
 
 .social-links-link:hover,
 .social-links-link:focus {
-  background-color: var(--accent-color);
-  fill: var(--white-color);
+  background-color: $accent-color;
+  fill: $white-color;
 }
 
 .social-links-icon {
@@ -448,18 +448,18 @@ img {
   align-items: center;
   width: 100%;
   height: 90px;
-  border: 1px solid var(--primary-social-links-color);
+  border: 1px solid $primary-social-links-color;
   border-radius: 4px;
 
-  fill: var(--primary-social-links-color);
+  fill: $primary-social-links-color;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients .link:hover,
 .clients .link:focus {
-  border-color: var(--accent-color);
-  fill: var(--accent-color);
+  border-color: $accent-color;
+  fill: $accent-color;
 }
 
 /* FOOTER */
@@ -484,13 +484,13 @@ img {
 }
 
 .footer {
-  background-color: var(--footer-bg-color);
-  color: var(--white-color);
+  background-color: $footer-bg-color;
+  color: $white-color;
 }
 
 .footer .logo {
   display: inline-block;
-  color: var(--white-color);
+  color: $white-color;
   margin-bottom: 20px;
 }
 
@@ -511,13 +511,13 @@ img {
 .footer .social-links-link {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  fill: var(--white-color);
+  fill: $white-color;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer .social-links-link:hover,
 .footer .social-links-link:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .join-up .text,
@@ -534,7 +534,7 @@ img {
 
 .footer .address,
 .footer .address-nav {
-  color: var(--white-color);
+  color: $white-color;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -560,7 +560,7 @@ img {
 }
 .footer .email {
   width: 358px;
-  color: var(--white-color);
+  color: $white-color;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -588,8 +588,8 @@ img {
 }
 
 .button-portfolio {
-  background-color: var(--button-bg-color);
-  color: var(--primary-text-color);
+  background-color: $button-bg-color;
+  color: $primary-text-color;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -611,8 +611,8 @@ img {
 
 .button-portfolio:hover,
 .button-portfolio:focus {
-  background-color: var(--accent-color);
-  color: var(--white-color);
+  background-color: $accent-color;
+  color: $white-color;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -663,7 +663,7 @@ img {
 }
 
 .portfolio-list .title {
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -673,7 +673,7 @@ img {
 }
 
 .portfolio-list .description {
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -698,7 +698,7 @@ img {
   height: 100%;
   background-color: rgba(33, 150, 243, 0.9);
   padding: 63px 24px;
-  color: var(--white-color);
+  color: $white-color;
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
@@ -741,7 +741,7 @@ img {
 
   width: 528px;
   height: 581px;
-  background-color: var(--white-color);
+  background-color: $white-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -760,7 +760,7 @@ img {
   width: 30px;
   height: 30px;
 
-  background: var(--white-color);
+  background: $white-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   padding: 0;
@@ -770,7 +770,7 @@ img {
 }
 
 .close-button:hover {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .modal-title {
@@ -781,7 +781,7 @@ img {
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   margin: 0;
   margin-bottom: 30px;
 }
@@ -835,13 +835,13 @@ img {
   left: 16px;
   transform: translateY(-50%);
 
-  fill: var(--primary-text-color);
+  fill: $primary-text-color;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:focus + .input-icon,
 .form-input:not(:placeholder-shown) + .input-icon {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .form-label,
@@ -854,7 +854,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 }
 
 .form-label {
@@ -870,7 +870,7 @@ img {
 
 .form-input:focus ~ .form-label,
 .form-input:not(:placeholder-shown) ~ .form-label {
-  color: var(--accent-color);
+  color: $accent-color;
   transform: translate(-26px, -40px);
   font-size: 12px;
   line-height: 1.17;
@@ -880,13 +880,13 @@ img {
 .form-textarea:focus,
 .form-input:not(:placeholder-shown),
 .form-textarea:not(:placeholder-shown) {
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accent-color;
   outline: none;
 }
 
 .form-textarea:focus + .textarea-label,
 .form-textarea:not(:placeholder-shown) + .textarea-label {
-  color: var(--accent-color);
+  color: $accent-color;
   transform: translateY(-30px);
   font-size: 12px;
   line-height: 1.17;
@@ -901,12 +901,12 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 }
 
 .policy-link {
   text-decoration-line: underline;
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .check-icon {
@@ -914,13 +914,13 @@ img {
   width: 16px;
   height: 15px;
 
-  border: 2px solid var(--primary-text-color);
+  border: 2px solid $primary-text-color;
   border-radius: 4px;
 }
 
 .checkbox:checked + .check-icon {
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
+  background-color: $accent-color;
+  border-color: $accent-color;
   background-image: url('../images/svg/check.svg');
   background-size: contain;
   background-origin: border-box;
