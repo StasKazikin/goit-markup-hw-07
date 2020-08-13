@@ -1,11 +1,60 @@
 /* FOOTER */
+.footer {
+  background-color: $footer-bg-color;
+  color: $white-color;
 
-.footer .container {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  .container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .logo {
+    display: inline-block;
+    color: $white-color;
+    margin-bottom: 20px;
+  }
+
+  .email {
+    width: 358px;
+    color: $white-color;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    padding: 15px 16px;
+    margin-right: 12px;
+  }
+
+  .button {
+    display: flex;
+    align-items: center;
+  }
+
+  .social-links-link {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    fill: $white-color;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      background-color: $accent-color;
+    }
+  }
+
+  .address,
+  .address-nav {
+    color: $white-color;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+
+  .address-nav {
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 .footer-nav {
@@ -19,17 +68,6 @@
   margin-bottom: 9px;
 }
 
-.footer {
-  background-color: $footer-bg-color;
-  color: $white-color;
-}
-
-.footer .logo {
-  display: inline-block;
-  color: $white-color;
-  margin-bottom: 20px;
-}
-
 .join-up {
   margin-right: 94px;
 }
@@ -38,22 +76,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
 
-.join-up-list .item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.footer .social-links-link {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  fill: $white-color;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer .social-links-link:hover,
-.footer .social-links-link:focus {
-  background-color: $accent-color;
+  .item:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .join-up .text,
@@ -68,23 +94,6 @@
   margin-bottom: 20px;
 }
 
-.footer .address,
-.footer .address-nav {
-  color: $white-color;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-}
-
-.footer .address-nav {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.footer .button {
-  display: flex;
-  align-items: center;
-}
-
 .send-icon {
   margin-left: 10px;
 }
@@ -93,13 +102,4 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-}
-.footer .email {
-  width: 358px;
-  color: $white-color;
-  background-color: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-  padding: 15px 16px;
-  margin-right: 12px;
 }
