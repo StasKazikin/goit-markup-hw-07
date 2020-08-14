@@ -3,18 +3,35 @@
 .about-us {
   padding-top: 94px;
   padding-bottom: 94px;
+
+  .subtitle {
+    color: $primary-text-color;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .description {
+    color: $secondary-text-color;
+    font-size: 14px;
+    line-height: 1.71;
+    margin: 0;
+  }
 }
 
 .about-us-list {
   display: flex;
-}
 
-.about-us-list > .item {
-  width: calc((100% - 3 * 30px) / 4);
-}
+  .item {
+    width: calc((100% - 3 * 30px) / 4);
+  }
 
-.about-us-list > .item.item:not(:last-child) {
-  margin-right: 30px;
+  .item.item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .about-us-img {
@@ -34,21 +51,4 @@
 .about-us-svg {
   width: 70px;
   height: 70px;
-}
-
-.about-us .subtitle {
-  color: $primary-text-color;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  margin: 0;
-  margin-bottom: 10px;
-}
-
-.about-us .description {
-  color: $secondary-text-color;
-  font-size: 14px;
-  line-height: 1.71;
-  margin: 0;
 }
