@@ -249,7 +249,7 @@ summary {
 body {
   background-color: #ffffff;
   color: #212121;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
 }
 
@@ -291,10 +291,24 @@ img {
   margin-right: auto;
 }
 
+.logo {
+  display: inline-block;
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
 .button {
   width: 200px;
   color: #ffffff;
   background-color: #2196f3;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -372,14 +386,10 @@ img {
 }
 
 .modal-title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
   margin: 0;
   margin-bottom: 30px;
 }
@@ -451,7 +461,6 @@ img {
 .textarea-label {
   position: absolute;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
@@ -490,10 +499,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 
@@ -605,18 +612,6 @@ img {
 
 .site-nav .item {
   position: relative;
-}
-
-.logo {
-  color: #000000;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-}
-
-.logo-web {
-  color: #2196f3;
 }
 
 .site-nav .link,
@@ -895,7 +890,6 @@ img {
 }
 
 .footer .logo {
-  display: inline-block;
   color: #ffffff;
   margin-bottom: 20px;
 }
